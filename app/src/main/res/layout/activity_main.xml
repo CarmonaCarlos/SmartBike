@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.smartbikebt.uach.smartbikebt.MainActivity">
+
+    <TextView
+        android:text="@string/main_activity_txtView_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSpeed"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/right"
+        android:id="@+id/imageViewRight"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignTop="@+id/imageViewLeft"
+        android:layout_toRightOf="@+id/textViewSpeed"
+        android:layout_toEndOf="@+id/textViewSpeed" />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/up"
+        android:layout_above="@+id/imageViewRight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:id="@+id/imageViewUp" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/down"
+        android:id="@+id/imageViewDown"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/left"
+        android:id="@+id/imageViewLeft"
+        android:layout_above="@+id/imageViewDown"
+        android:layout_toLeftOf="@+id/textViewSpeed"
+        android:layout_toStartOf="@+id/textViewSpeed" />
+
+</RelativeLayout>

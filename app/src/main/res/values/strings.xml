@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartBikeBT</string>
+    <string name="main_actionbar_title">SmartBike</string>
+
+    <!-- MainActivity -->
+
+    <string name="main_activity_txtView_speed">Velocidad</string>
+
+
+    <!--User Preferences Settings-->
+    <string name="userPreference_actionbar_title">Configuración</string>
+    <string name="userPreference_menu_item0">Configuración</string>
+    <string name="menu_checkbox_sendSMS">Enviar mensaje en caso de emergencia.</string>
+    <string name="menu_textBox_hint">Contancto de emergencia</string>
+    <string name="menu_button_save">Guardar preferencias</string>
+    <string name="menu_textVIew_title_bluetooth">Dispositivo Bluetooth</string>
+</resources>
